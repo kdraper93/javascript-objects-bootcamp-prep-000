@@ -6,6 +6,6 @@ function updatePlaylist(playlist, Hanson, MmmBop) {
 }
 
 function removeFromPlaylist(playlist, Hanson) {
-  delete playlist.Hanson
+  delete playlist.Hanson;
   return playlist
 }
