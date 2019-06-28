@@ -5,7 +5,7 @@ function updatePlaylist(playlist, Hanson, MmmBop) {
   return playlist
 }
 
-function removeFromPlaylist(playlist, Hanson) {
-  delete playlist.Hanson;
+function removeFromPlaylist(playlist, Slowdive) {
+  delete playlist.Slowdive;
   return playlist
 }
