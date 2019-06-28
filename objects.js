@@ -1,4 +1,4 @@
-var playlist = {Blink182:"I Miss You"};
+var playlist = {Hanson:"MmmBop"};
 
 function updatePlaylist(obj, key, value) {
   obj[key] = value;
@@ -6,6 +6,6 @@ function updatePlaylist(obj, key, value) {
 }
 
 function removeFromPlaylist(obj, key, value) {
-  delete obj.key;
-  return obj
+  delete playlist.key;
+  return playlist
 }
