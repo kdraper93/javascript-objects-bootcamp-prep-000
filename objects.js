@@ -1,5 +1,6 @@
 var playlist = {Hanson:"MmmBop"};
 
 function updatePlaylist(obj, key, value){
-  playlist.NSync
+  playlist.NSYNC = 'Pop';
   return playlist
+}
